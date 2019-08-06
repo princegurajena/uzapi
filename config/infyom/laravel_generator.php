@@ -119,8 +119,7 @@ return [
     'options' => [
 
         'softDelete' => true,
-
-        'tables_searchable_default' => false,
+        'tables_searchable_default' => true,
     ],
 
     /*
@@ -150,11 +149,11 @@ return [
 
     'add_on' => [
 
-        'swagger'       => false,
+        'swagger'       => true,
 
         'tests'         => true,
 
-        'datatables'    => false,
+        'datatables'    => true,
 
         'menu'          => [
 
@@ -199,12 +198,6 @@ return [
     'from_table' => [
 
         'doctrine_mappings' => [],
-    ],
-
-    'add_on' => [
-        'menu' => [
-            'enabled' => true
-        ]
     ],
 
 ];

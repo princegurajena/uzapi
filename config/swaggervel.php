@@ -1,6 +1,10 @@
 <?php
 
 return [
+
+    'add_on.swagger' => true ,
+    'add_on.tests' => true,
+
     /*
       |--------------------------------------------------------------------------
       | Absolute path to location where parsed swagger annotations will be stored
@@ -137,7 +141,7 @@ return [
       |--------------------------------------------------------------------------
     */
     'use-basic-auth-with-access-code-grant' => false,
-    
+
     /*
       |--------------------------------------------------------------------------
       | Middleware settings to check for user authorization.

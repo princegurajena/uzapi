@@ -171,6 +171,8 @@ return [
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         \InfyOm\CoreUITemplates\CoreUITemplatesServiceProvider::class,
+        \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
+
 
         /*
          * Application Service Providers...

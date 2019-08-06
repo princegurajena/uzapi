@@ -19,3 +19,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
+
+
+Route::resource('tests', 'TestAPIController');
+

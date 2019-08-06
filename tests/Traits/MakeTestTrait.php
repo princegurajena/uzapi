@@ -1,0 +1,52 @@
+<?php namespace Tests\Traits;
+
+use Faker\Factory as Faker;
+use App\Models\Test;
+use App\Repositories\TestRepository;
+
+trait MakeTestTrait
+{
+    /**
+     * Create fake instance of Test and save it in database
+     *
+     * @param array $testFields
+     * @return Test
+     */
+    public function makeTest($testFields = [])
+    {
+        /** @var TestRepository $testRepo */
+        $testRepo = \App::make(TestRepository::class);
+        $theme = $this->fakeTestData($testFields);
+        return $testRepo->create($theme);
+    }
+
+    /**
+     * Get fake instance of Test
+     *
+     * @param array $testFields
+     * @return Test
+     */
+    public function fakeTest($testFields = [])
+    {
+        return new Test($this->fakeTestData($testFields));
+    }
+
+    /**
+     * Get fake data of Test
+     *
+     * @param array $testFields
+     * @return array
+     */
+    public function fakeTestData($testFields = [])
+    {
+        $fake = Faker::create();
+
+        return array_merge([
+            'title' => $fake->word,
+            'body' => $fake->text,
+            'email' => $fake->word,
+            'created_at' => $fake->date('Y-m-d H:i:s'),
+            'updated_at' => $fake->date('Y-m-d H:i:s')
+        ], $testFields);
+    }
+}
