@@ -1,2 +1,2 @@
-# coreui-generator
-CoreUI Templates with InfyOm Laravel Generator Boilerplate
+# UZ Mobile Api
+Mobile application uz api
