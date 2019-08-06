@@ -170,7 +170,7 @@ return [
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-//        \InfyOm\CoreUITemplates\CoreUITemplatesServiceProvider::class,
+        \InfyOm\CoreUITemplates\CoreUITemplatesServiceProvider::class,
         \InfyOm\GeneratorBuilder\GeneratorBuilderServiceProvider::class,
 
 

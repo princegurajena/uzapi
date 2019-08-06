@@ -3,7 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="d9afd31c-b8f6-43ae-93a2-1763b364b9cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/TestDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/API/TestAPIController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/API/CreateTestAPIRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/API/UpdateTestAPIRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CreateTestRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateTestRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/TestRepository.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/docs/api-docs.json" beforeDir="false" afterPath="$PROJECT_DIR$/storage/docs/api-docs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/APIs/TestApiTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Repositories/TestRepositoryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Traits/MakeTestTrait.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/infyomlabs/generator-builder" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/infyomlabs/generator-builder" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,7 +221,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565051080390</updated>
-      <workItem from="1565051081950" duration="11919000" />
+      <workItem from="1565051081950" duration="13113000" />
     </task>
     <servers />
   </component>
